@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    text-align: center;
+    justify-content: center;
+}
+
+.logo {
+    width: 30px;
+    height: 30px;
+    margin-top: 300px;
+    margin-left: -280px
+}
+
+.info {
+    font-size: 30px;
+}
+
+.twitter p {
+    font-size: 20px;
+}
+
+.twitter {
+    margin-top: -100px;
+    flex-direction: column;
+    flex: auto;
+}
+
+.input-box input {
+    width: 200px;
+    height: 20px;
+    border: 1px solid none;
+    margin-left: 4px;
+}
+
+.btn-a {
+    text-decoration: none;
+    padding: 4px;
+    background-color: #08a0e9;
+    color: white;
+    border-radius: 20px;
+}
+
+.twitter span {
+    margin-left: 15px;
+}
+
+.btn {
+    color: #08a0e9;
+    margin-left: 1px;
+    text-decoration: none;
+    font-weight: bold;
+    cursor: pointer
+}
