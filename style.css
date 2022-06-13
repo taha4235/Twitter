@@ -24,7 +24,7 @@ body {
 }
 
 .twitter {
-    margin-top: -100px;
+    margin-top: -120px;
     flex-direction: column;
     flex: auto;
 }
@@ -54,4 +54,18 @@ body {
     text-decoration: none;
     font-weight: bold;
     cursor: pointer
+}
+
+@media (max-width:943px) {
+    .twitter {
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+    body {
+        flex-direction: column;
+    }
+    .btn {
+        margin-left: 2px;
+    }
 }
